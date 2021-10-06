@@ -8,14 +8,15 @@
 void print_alphabet(void)
 
 {
-  int j = 97;
-  while (j <= 122)
+	int j = 97;
+	while (j <= 122)
 
-  {
-      _putchar(j);
-      j++;
-  }
+{
 
-  _putchar('\n');
-  
+_putchar(j);
+
+j++;
+
+}
+_putchar('\n');
 }
