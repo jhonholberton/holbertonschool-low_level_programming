@@ -1,22 +1,15 @@
 #include "main.h"
-
 /**
-* main - print_alphabet - Write a function that prints the alphabet
-* Return: 0
+* print_alphabet - function_alphabet
+* new line
 */
-
 void print_alphabet(void)
-
 {
-	int j = 97;
-	while (j <= 122)
-
+int letter = 97;
+while (letter <= 122)
 {
-
-_putchar(j);
-
-j++;
-
+_putchar(letter);
+letter++;
 }
 _putchar('\n');
 }
