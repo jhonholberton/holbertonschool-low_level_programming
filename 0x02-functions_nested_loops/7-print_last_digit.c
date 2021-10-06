@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 /**
 * print_last_digit - print last digit
 * @n: charter to be checked
