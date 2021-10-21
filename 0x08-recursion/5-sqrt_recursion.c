@@ -16,11 +16,8 @@ int aux(int n, int i)
 		aux(n, i + 1);
 	else
 		return (-1);
-	{
-
-	}
-
 }
+
 int _sqrt_recursion(int n)
 
 {
