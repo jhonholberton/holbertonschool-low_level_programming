@@ -1,12 +1,11 @@
 #include "main.h"
 
 /**
- * _sqrt_recursion - function that returns the natural square root of a number.
- * @n: variable
- * @i: varibale 2
- * @j: variable 3
- * Return: square root or -1
- */
+ * aux - it is used to do the recursion in the if
+ *@n:square root
+ *@i:Filing
+ *Return: square root
+*/
 
 int aux(int n, int i)
 {
@@ -23,6 +22,11 @@ int aux(int n, int i)
 		return (-1);
 	}
 }
+/**
+ * _sqrt_recursion - Returned the square root of n
+ * @n:calculate square root
+ * Return:square root
+*/
 int _sqrt_recursion(int n)
 
 {
