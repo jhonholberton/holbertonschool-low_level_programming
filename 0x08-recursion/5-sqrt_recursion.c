@@ -26,7 +26,8 @@ int aux(int n, int i)
 int _sqrt_recursion(int n)
 
 {
-	int j = 0;
+	int j;
+	j = 0;
 
 	return (aux(n, j));
 }
