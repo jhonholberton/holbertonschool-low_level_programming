@@ -26,7 +26,7 @@ int main(int argc, char *argv[])
 	for (i = 0; coins > 0; i++)
 	{
 	if (coins >= 25)
-	}
+	{
 		coins = coins - 25;
 	}
 	else if
@@ -48,6 +48,8 @@ int main(int argc, char *argv[])
 	(coins >= 1)
 	{
 		coins = coins - 1;
+	}
+
 	}
 	printf("%d\n", i);
 	return (0);
