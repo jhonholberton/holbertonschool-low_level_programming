@@ -26,7 +26,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	{
 		long2++;
 	}
-	if (n >= long2)
+	if (n >= long2 + 1)
 	{
 		total = long1 + long2;
 	}
